@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: wepoint.ar
-        username: wepointApi@wepoint.ar
+        username: Production@wepoint.ar
         password: ${{ secrets.password }}
